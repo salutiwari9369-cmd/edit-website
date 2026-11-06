@@ -1,1 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360"><title>Four steps to buy furniture</title><rect width="1200" height="360" rx="28" fill="#f3eee6"/><path d="M170 170H1020" stroke="#d3b99e" stroke-width="12" stroke-linecap="round" stroke-dasharray="2 24"/><g><circle cx="170" cy="170" r="78" fill="#fff"/><circle cx="170" cy="170" r="62" fill="#e9f0eb"/><rect x="130" y="142" width="80" height="58" rx="8" fill="#c77e48"/><path d="M130 157h80" stroke="#f4d8ba" stroke-width="8"/><circle cx="150" cy="174" r="5" fill="#fff"/><circle cx="169" cy="174" r="5" fill="#fff"/><circle cx="188" cy="174" r="5" fill="#fff"/><text x="170" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#333">EXPLORE</text></g><g><circle cx="457" cy="170" r="78" fill="#fff"/><circle cx="457" cy="170" r="62" fill="#e9f0eb"/><path d="M414 143h86v56h-43l-22 20v-20h-21z" fill="#6d8b7b"/><circle cx="437" cy="170" r="5" fill="#fff"/><circle cx="457" cy="170" r="5" fill="#fff"/><circle cx="477" cy="170" r="5" fill="#fff"/><text x="457" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#333">ENQUIRE</text></g><g><circle cx="744" cy="170" r="78" fill="#fff"/><circle cx="744" cy="170" r="62" fill="#e9f0eb"/><rect x="709" y="130" width="70" height="82" rx="10" fill="#dda14e"/><path d="M725 171l13 13 27-32" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><text x="744" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#333">CONFIRM</text></g><g><circle cx="1031" cy="170" r="78" fill="#fff"/><circle cx="1031" cy="170" r="62" fill="#e9f0eb"/><path d="M990 145h58v49h-58z" fill="#e9873e"/><path d="M1048 158h25l22 24v12h-47z" fill="#d87c37"/><circle cx="1007" cy="199" r="11" fill="#38474a"/><circle cx="1069" cy="199" r="11" fill="#38474a"/><text x="1031" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#333">DELIVER</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Four simple steps to buy furniture</title>
+  <desc id="desc">Explore furniture, enquire with our team, confirm the order and arrange delivery.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#f8e6d3"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff9d4d"/>
+      <stop offset="1" stop-color="#ef681c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="26" fill="url(#wash)"/>
+  <text x="600" y="52" text-anchor="middle" fill="#6b6b73" font-family="system-ui,sans-serif" font-size="16" font-weight="700" letter-spacing="4">YOUR ORDER, MADE SIMPLE</text>
+  <path d="M170 178H1030" stroke="#dfc5ad" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 13"/>
+  <g font-family="system-ui,sans-serif" font-weight="700" text-anchor="middle">
+    <g transform="translate(170 178)">
+      <circle r="69" fill="#fff" stroke="#f1d8c0" stroke-width="2"/>
+      <circle r="55" fill="#fff0df"/>
+      <path d="M-29 1h49v24h-49z" fill="#a96239"/>
+      <path d="M-34-12h59l-5 17h-49z" fill="#d79360"/>
+      <path d="M-21-26h31l6 14h-43z" fill="#c47b4e"/>
+      <path d="M-24 25v8m36-8v8" stroke="#58453c" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="31" cy="-27" r="13" fill="url(#accent)"/>
+      <path d="m25-27 4 4 8-9" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="105" fill="#302b28" font-size="19">EXPLORE</text>
+      <text y="129" fill="#77716b" font-size="13" font-weight="500">Find your furniture</text>
+    </g>
+    <g transform="translate(457 178)">
+      <circle r="69" fill="#fff" stroke="#f1d8c0" stroke-width="2"/>
+      <circle r="55" fill="#eaf1ed"/>
+      <path d="M-33-24h66a9 9 0 0 1 9 9v32a9 9 0 0 1-9 9h-23l-17 14V26h-26a9 9 0 0 1-9-9v-32a9 9 0 0 1 9-9z" fill="#628976"/>
+      <circle cx="-16" cy="1" r="4" fill="#fff"/><circle cy="1" r="4" fill="#fff"/><circle cx="16" cy="1" r="4" fill="#fff"/>
+      <text y="105" fill="#302b28" font-size="19">ENQUIRE</text>
+      <text y="129" fill="#77716b" font-size="13" font-weight="500">Ask our team</text>
+    </g>
+    <g transform="translate(744 178)">
+      <circle r="69" fill="#fff" stroke="#f1d8c0" stroke-width="2"/>
+      <circle r="55" fill="#fff1d9"/>
+      <rect x="-28" y="-35" width="56" height="70" rx="9" fill="#df9e42"/>
+      <path d="m-15 0 11 12 23-26" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="105" fill="#302b28" font-size="19">CONFIRM</text>
+      <text y="129" fill="#77716b" font-size="13" font-weight="500">Review your order</text>
+    </g>
+    <g transform="translate(1031 178)">
+      <circle r="69" fill="#fff" stroke="#f1d8c0" stroke-width="2"/>
+      <circle r="55" fill="#eaf1ed"/>
+      <path d="M-35-20h44v42h-44z" fill="#e9873e"/>
+      <path d="M9-9h19l19 20v11H9z" fill="#ca6735"/>
+      <circle cx="-20" cy="27" r="8" fill="#37484c"/><circle cx="28" cy="27" r="8" fill="#37484c"/>
+      <path d="M-28-9h30M-28 1h20" stroke="#fff0df" stroke-width="3" stroke-linecap="round"/>
+      <text y="105" fill="#302b28" font-size="19">DELIVERY</text>
+      <text y="129" fill="#77716b" font-size="13" font-weight="500">To your doorstep</text>
+    </g>
+  </g>
+</svg>

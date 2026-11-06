@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="pin"><path d="M12 1.5A7.5 7.5 0 0 0 4.5 9c0 5.2 7.5 13.5 7.5 13.5S19.5 14.2 19.5 9A7.5 7.5 0 0 0 12 1.5Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#pin)">
+    <path fill="#4285F4" d="M0 0h24v24H0z"/>
+    <path fill="#EA4335" d="M0 0h24v8H0z"/>
+    <path fill="#FBBC04" d="M0 8h12v8H0z"/>
+    <path fill="#34A853" d="M12 8h12v8H12z"/>
+  </g>
+  <circle cx="12" cy="9" r="2.5" fill="#fff"/>
+</svg>

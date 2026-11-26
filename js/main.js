@@ -2,23 +2,32 @@
 /* ====== SETTINGS: apna number aur images yahan badlein ====== */
 const PHONE="918800159410";
 const PHONE_ALT="918882664742";
-const MAP_URL="https://maps.app.goo.gl/fm145C5r9oVg2gBy9?g_st=ic";
+const MAP_URL="https://www.google.com/maps/search/?api=1&query=B-117%2C%20Sector%2069%2C%20Noida%20%28Uttar%20Pradesh%29%20201301";
 const EMAIL="Oldfurnitureks@gmail.com";
 const SERVICE_ITEMS=[["Business Support","images/generated/service-icons/business.png"],["Pan India Delivery","images/generated/india-map-pan-india.png"],["Express Delivery","images/generated/service-icons/express-delivery.png"],["Affordable Rates","images/generated/service-icons/affordable.png"]];
 const TICKER_ITEMS=SERVICE_ITEMS;
 /* Image add karne ke liye: IMG.sofa="data:image/jpeg;base64,..." ya koi bhi image data URI */
-const IMG={hero:"hero-banner-1.webp",sofa:"design-corner-sofa-or-hero-sofa-or-lago.jpg",dining:"Gemini_Generated_Image_xa6witxa6witxa6w.webp",bed:"11.jpg",chair:"images%20%2814%29.jpg",wardrobe:"1%20%281%29.jpg",fridge:"images%20%2815%29.jpg",study:"images/generated/home-furniture/study-space.png",bunk:"images/generated/bunk.svg",v1:"images/generated/restoration.svg",v2:"images/generated/before-after.svg",v3:"images/generated/delivery.svg",quality:"images/generated/quality-check.svg",journey:"images/generated/buying-steps.svg",customer:"images/generated/customer-service.svg","cHome Furniture":"design-corner-sofa-or-hero-sofa-or-lago.jpg","cOffice Furniture":"images%20%2814%29.jpg","cKitchen Appliances":"images%20%2815%29.jpg","cElectronic Gadgets":"images/generated/electronic-gadgets/category-electronics.jpg","cRestaurant Furniture":"Gemini_Generated_Image_xa6witxa6witxa6w.webp","cPG Furniture":"images/generated/bunk.svg","cFlat Furniture":"hero-banner-image.png"};
+const IMG={hero:"hero-banner-1.webp",productBanner:"images/product-banner-2000x400.png",sofa:"design-corner-sofa-or-hero-sofa-or-lago.jpg",dining:"Gemini_Generated_Image_xa6witxa6witxa6w.webp",bed:"11.jpg",chair:"images%20%2814%29.jpg",wardrobe:"1%20%281%29.jpg",fridge:"images%20%2815%29.jpg",study:"images/generated/home-furniture/study-space.png",bunk:"images/generated/bunk.svg",v1:"images/generated/restoration.svg",v2:"images/generated/before-after.svg",v3:"images/generated/delivery.svg",quality:"images/generated/quality-check.svg",journey:"images/generated/buying-steps.svg",customer:"images/generated/customer-service.svg","cHome Furniture":"design-corner-sofa-or-hero-sofa-or-lago.jpg","cOffice Furniture":"images%20%2814%29.jpg","cKitchen Appliances":"images%20%2815%29.jpg","cElectronic Gadgets":"images/generated/electronic-gadgets/category-electronics.jpg","cRestaurant Furniture":"Gemini_Generated_Image_xa6witxa6witxa6w.webp","cPG Furniture":"images/generated/bunk.svg","cFlat Furniture":"hero-banner-image.png"};
 const P=[
 ["p1","3 Seater Sofa","Home Furniture",12000,1,"sofa","🛋️","Comfortable and stylish sofa for your living room."],
-["p2","Dining Table Set","Restaurant Furniture",18000,0,"dining","🍽️","Solid wood dining table with 6 chairs."],
+["p2","Dining Table Set","Home Furniture",18000,0,"dining","🍽️","Solid wood dining table with 6 chairs."],
 ["p3","Queen Size Bed","Home Furniture",18000,1,"bed","🛏️","Spacious and comfortable queen size bed."],
 ["p4","Ergonomic Office Chair","Office Furniture",6500,1,"chair","🪑","Comfortable office chair with adjustable height."],
 ["p5","Wooden Wardrobe","Home Furniture",9800,0,"wardrobe","🚪","Spacious wardrobe for organized storage."],
-["p6","Double Door Refrigerator","Kitchen Appliances",14000,1,"fridge","🧊","Energy efficient refrigerator for your home."],
+["p6","Double Door Refrigerator","Home Furniture",14000,1,"fridge","🧊","Energy efficient refrigerator for your home."],
 ["p7","Study Table","Home Furniture",4800,1,"study","📚","Compact study table with drawers."],
-["p8","Bunk Bed","PG Furniture",8800,1,"bunk","🛏️","Strong metal bunk bed, ideal for PG and hostels."]];
-const C=[["Home Furniture","🛋️"],["Office Furniture","🪑"],["Kitchen Appliances","🧊"],["Electronic Gadgets","💻"],["Restaurant Furniture","🍽️"],["PG Furniture","🛏️"],["Flat Furniture","🏠"]];
-const HOME_CATEGORIES=["Home Furniture","Office Furniture","Electronic Gadgets","Kitchen Appliances","Restaurant Furniture","Flat Furniture"].map(name=>C.find(([category])=>category===name));
+["p8","Bunk Bed","Home Furniture",8800,1,"bunk","🛏️","Strong metal bunk bed, ideal for PG and hostels."]];
+const C=[["Home Furniture","🛋️"],["Office Furniture","🪑"],["Restaurant Furniture","🍽️"]];
+const HOME_CATEGORY_IMAGE="images/home-furniture-category.png";
+const OFFICE_CATEGORY_IMAGE="images/office-furniture-category.png";
+const RESTAURANT_CATEGORY_IMAGE="images/restaurant-furniture-category.png";
+const HOME_SUBCATEGORIES=[
+["Beds","🛏️"],["Sofas","🛋️"],["Dining Tables","🍽️"],["Dressing Tables","🪞"],["TV Unit Cabinets","📺"],["Almirah","🚪"],["Showcase","🗄️"],["Center Tables","🪵"],["Wardrobes","👕"],["Study Tables","📚"],["Accent Chairs","🪑"],["Coffee Tables","☕"]
+];
+const OFFICE_SUBCATEGORIES=[
+["Office Desk","🖥️"],["Revolving Chair","🪑"],["Boss Chair","💺"],["Fixed Chair","🪑"],["Conference Table","🪑"],["Workstations","💻"]
+];
+const HOME_CATEGORIES=[["Home Furniture","🛋️"],["Office Furniture","🪑"],["Electronic Gadgets","💻"],["Kitchen Appliances","🧊"],["Restaurant Furniture","🍽️"],["Flat Furniture","🏠"]];
 const CATEGORY_SAMPLES={
 "Home Furniture":[["Accent Chair","🪑"],["Coffee Table","🪵"]],
 "Office Furniture":[["Executive Office Chair","🪑"],["Office Desk","🖥️"],["Visitor Chair","💺"],["Conference Table","🪑"],["Office Storage Cabinet","🗄️"]],
@@ -66,6 +75,7 @@ const card=p=>`<div class="pc rev"><div class="im"><span class="bd ${p[4]?"":"so
 const sampleCard=([name,icon],category)=>`<article class="pc rev${category==="Office Furniture"?" office-sample":""}"><div class="im"><span class="bd sample">Sample</span>${CATEGORY_SAMPLE_IMAGES[name]?`<div class="ph${["Electronic Gadgets","Office Furniture"].includes(category)?" fitted-sample-image":""}" style="background-image:url('${CATEGORY_SAMPLE_IMAGES[name]}')" role="img" aria-label="${name}"></div>`:ph("sample-"+name,icon)}</div><div class="b"><h4>${name}</h4><small>${category}</small><div class="pr">Price on enquiry</div><div class="a"><a class="btn s" href="contact.html">Enquire</a></div></div></article>`;
 const categoryProductSection=category=>{const products=P.filter(product=>product[2]===category).slice(0,6),samples=(CATEGORY_SAMPLES[category]||[]).slice(0,Math.max(0,6-products.length));return `<section class="category-products"><div class="w"><h2 class="rev">${category}</h2><p class="sub">Browse current items and sample ideas. Contact us to confirm availability and price.</p><div class="grid">${products.map(card).join("")}${samples.map(sample=>sampleCard(sample,category)).join("")}</div></div></section>`};
 const head=(t,s)=>`<div class="ph-head"><div class="w"><h1>${t}</h1><p>${s}</p></div></div>`;
+const productExploreHero=()=>`<section class="product-explore-head" aria-label="Explore our products"><img src="${IMG.productBanner}" alt="Timeless old furniture made for your home" loading="eager"></section>`;
 const cta=(t)=>`<div class="w" style="padding-top:50px"><div class="cta rev"><div><h2>${t}</h2><p>Explore our collection or contact our team.</p></div><div style="display:flex;gap:10px"><a class="btn" href="products.html">Explore Products</a><a class="btn" style="background:#16181d" href="contact.html">Contact Us</a></div></div></div>`;
 const HOW_STEPS=[
 {label:"EXPLORE",title:"Explore",description:"Browse our collection.",icon:'<rect x="13" y="23" width="70" height="52" rx="8" fill="#c77b4a"/><path d="M13 34h70" stroke="#f1c49b" stroke-width="8"/><circle cx="32" cy="53" r="4" fill="#fff"/><circle cx="48" cy="53" r="4" fill="#fff"/><circle cx="64" cy="53" r="4" fill="#fff"/>'},
@@ -84,11 +94,11 @@ ${["Home Furniture","Office Furniture","Electronic Gadgets"].map(categoryProduct
 <div class="w"><div class="cta rev"><div><h2>Give Your Space a Fresh Look.</h2><p>Explore affordable furniture options for your home, office and business.</p></div><a class="btn" href="products.html">Explore All Products →</a></div></div>
 <section><div class="w"><h2 class="rev">See the <em>Transformation</em></h2><p class="sub">Watch how we bring old furniture back to life.</p><div class="vids">${[["v1","Restoration Process","🔨"],["v2","Before &amp; After","✨"],["v3","Delivery Showcase","🚚"]].map(v=>`<div class="vd rev">${ph(v[0],v[2])}<div class="pl">▶</div></div>`).join("")}</div></div></section>
 ${howItWorks()}</div>`,
-products:()=>`<div class="pg">${head("Explore Our Products","Discover quality refurbished furniture at affordable prices.")}<section><div class="w"><div class="grid" id="pg"></div><div class="fl filters"><input id="q" placeholder="🔍 Search products..."><select id="fc"><option value="">All Categories</option>${C.map(c=>`<option>${c[0]}</option>`).join("")}</select><select id="fa"><option value="">Availability</option><option value="1">Available</option><option value="0">Sold Out</option></select><select id="fs"><option value="n">Sort: Newest</option><option value="l">Price: Low to High</option><option value="h">Price: High to Low</option></select></div></div></section>${cta("Found Something You Like?")}</div>`,
+products:()=>`<div class="pg">${productExploreHero()}<section class="product-category-section"><div class="w"><div class="product-category-cards">${C.map(([name],index)=>`<button class="product-category-card ${index===0?"product-category-card--home":"product-category-card--office"}" type="button" data-category="${name}" aria-pressed="false"><span class="product-category-card__number">0${index+1}</span><span class="product-category-card__placeholder"><span>${index===0?"HOME FURNITURE":"OFFICE FURNITURE"}<small>IMAGE PLACEHOLDER</small></span></span><span class="product-category-card__copy"><b>${name}</b><small>${name==="Home Furniture"?"Beds, sofas, tables and more":"Desks, chairs, storage and more"}</small></span><i aria-hidden="true">↗</i></button>`).join("")}</div><div class="home-subcategories" id="home-subcategories"><div class="home-subcategories__heading"><span class="category-section-kicker">SHOP BY ROOM</span><h2>Home Furniture <em>Categories</em></h2><p>Explore furniture by room and use.</p></div><div class="home-subcategory-grid">${HOME_SUBCATEGORIES.map(([name,icon])=>`<button class="home-subcategory-chip" type="button" data-subcategory="${name}"><span>${icon}</span><b>${name}</b><i aria-hidden="true">→</i></button>`).join("")}</div></div><div class="office-category-panel" id="office-category-panel" hidden><span class="category-section-kicker">WORKSPACE COLLECTION</span><h2>Office Furniture <em>Collection</em></h2><p>Office furniture details and exact product options will be added here.</p></div><div class="grid" id="pg"></div><div class="fl filters"><input id="q" placeholder="🔍 Search products..."><select id="fc"><option value="">All Categories</option>${C.map(c=>`<option>${c[0]}</option>`).join("")}</select><select id="fa"><option value="">Availability</option><option value="1">Available</option><option value="0">Sold Out</option></select><select id="fs"><option value="n">Sort: Newest</option><option value="l">Price: Low to High</option><option value="h">Price: High to Low</option></select></div></div></section>${cta("Found Something You Like?")}</div>`,
 about:()=>`<div class="pg">${head("About Old Furniture KS","Affordable Furniture, Better Choices, Fresh Beginnings.")}<section><div class="w two"><div class="rev"><h2>Our <em>Story</em></h2><p class="sub">Old Furniture KS started with a simple idea: to make quality furniture affordable for everyone. We buy, refurbish and sell pre-owned furniture so homes, offices and PGs can be furnished without overspending.</p><h2>Our <em>Mission</em></h2><p class="sub">To provide affordable, quality-checked furniture options that are sustainable and accessible to all.</p></div><div style="height:320px" class="rev">${ph("hero","🏬")}</div></div></section>
 <section class="dark"><div class="w"><h2 class="rev">Our Quality <em>Process</em></h2><p class="sub">Four steps before it reaches you.</p><div class="steps">${["Inspection|Check overall condition","Assessment|Evaluate repair needs","Refurbishment|Restore and polish","Final Check|Ensure quality standards"].map((s,i)=>`<div class="st rev"><i>${i+1}</i><b>${s.split("|")[0]}</b><p style="color:var(--mut)">${s.split("|")[1]}</p></div>`).join("")}</div></div></section>
 <section><div class="w"><h2 class="rev">Why Choose <em>Us</em></h2><div class="cards4" style="margin-top:20px"><div class="cd rev"><b class="cd__icon" aria-hidden="true"><img src="images/generated/why-choose-icons/affordable-prices.png" alt=""></b>Affordable Options</div><div class="cd rev"><b class="cd__icon" aria-hidden="true"><img src="images/generated/why-choose-icons/refurbished-furniture.png" alt=""></b>Product Variety</div><div class="cd rev"><b class="cd__icon" aria-hidden="true"><img src="images/generated/why-choose-icons/quality-checked.png" alt=""></b>Transparent Condition</div><div class="cd rev"><b class="cd__icon" aria-hidden="true"><img src="images/generated/why-choose-icons/expert-support.png" alt=""></b>Responsive Support</div></div><div class="cards4" style="margin-top:30px"><div class="cd rev"><b class="cn" data-n="500">0</b>Happy Customers</div><div class="cd rev"><b class="cn" data-n="800">0</b>Products Sold</div><div class="cd rev"><b class="cn" data-n="120">0</b>Cities Delivered</div></div></div></section>${cta("Looking for Affordable Furniture?")}</div>`,
-contact:()=>`<div class="pg contact-page"><section class="contact-hero"><div class="w"><span>WE’RE HERE TO HELP</span><h1>Contact Us</h1><p>We’re here to help. Get in touch with us for any queries related to buying or selling furniture.</p></div></section><section class="contact-section"><div class="w"><div class="contact-grid"><form class="fm contact-form rev" id="cf"><h2>Send Us a <em>Message</em></h2><label for="fn">Your Name</label><input id="fn" placeholder="Your Name" autocomplete="name" required><label for="fp">Phone Number</label><input id="fp" type="tel" placeholder="Your Phone Number" autocomplete="tel" required><label for="fa2">Product of Interest</label><input id="fa2" placeholder="What are you looking for?"><label for="fm">Your Message</label><textarea id="fm" rows="4" placeholder="How can we help you?"></textarea><button class="btn" type="submit">Send Enquiry <span aria-hidden="true">→</span></button></form><div class="contact-info rev"><h2>Our <em>Address</em></h2><div class="contact-detail"><b class="contact-icon">${mapIcon}</b><div><strong>Old Furniture KS</strong><p>Open the map for our saved location and directions.</p><a href="${MAP_URL}" target="_blank" rel="noopener noreferrer">Get directions ↗</a></div></div><h3>Call Us</h3><div class="contact-detail"><b class="contact-icon">${callIcon}</b><div><a href="tel:+${PHONE}">+91 88001 59410</a><a href="tel:+${PHONE_ALT}">+91 88826 64742</a></div></div><h3>Chat on WhatsApp</h3><div class="contact-detail"><b class="contact-icon">${whatsappIcon}</b><div><a target="_blank" rel="noopener noreferrer" href="${wa("Hi, I would like to know more about your furniture.",PHONE)}">Chat on +91 88001 59410</a><a target="_blank" rel="noopener noreferrer" href="${wa("Hi, I would like to know more about your furniture.",PHONE_ALT)}">Chat on +91 88826 64742</a></div></div><h3>Email</h3><div class="contact-detail"><b class="contact-icon">✉</b><div><a href="mailto:${EMAIL}">${EMAIL}</a></div></div></div><div class="contact-map rev"><div class="contact-map__heading"><h2>Find Us on <em>Map</em></h2><a href="${MAP_URL}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a></div><iframe title="Map showing Old Furniture KS" src="https://www.google.com/maps?q=Old%20Furniture%20KS&output=embed" loading="lazy"></iframe></div></div><section class="contact-faq" aria-labelledby="contact-faq-title"><h2 id="contact-faq-title">FAQs</h2><details><summary>Can I check product availability?</summary><p class="sub">Yes, message us on WhatsApp.</p></details><details><summary>Do you provide delivery?</summary><p class="sub">Yes, Pan India delivery is available.</p></details><details><summary>Is Cash on Delivery available?</summary><p class="sub">Yes, COD is available.</p></details><details><summary>What is your return policy?</summary><p class="sub">See our Return Policy page.</p></details></section></div></section></div>`,
+contact:()=>`<div class="pg contact-page"><section class="contact-hero"><div class="w"><span>WE’RE HERE TO HELP</span><h1>Contact Us</h1><p>We’re here to help. Get in touch with us for any queries related to buying or selling furniture.</p></div></section><section class="contact-section"><div class="w"><div class="contact-grid"><form class="fm contact-form rev" id="cf"><h2>Send Us a <em>Message</em></h2><label for="fn">Your Name</label><input id="fn" placeholder="Your Name" autocomplete="name" required><label for="fp">Phone Number</label><input id="fp" type="tel" placeholder="Your Phone Number" autocomplete="tel" required><label for="fa2">Product of Interest</label><input id="fa2" placeholder="What are you looking for?"><label for="fm">Your Message</label><textarea id="fm" rows="4" placeholder="How can we help you?"></textarea><button class="btn" type="submit">Send Enquiry <span aria-hidden="true">→</span></button></form><div class="contact-info rev"><h2>Our <em>Address</em></h2><div class="contact-detail"><b class="contact-icon">${mapIcon}</b><div><strong>Old Furniture KS</strong><p>B-117, Sector 69, Noida (Uttar Pradesh) 201301</p><a href="${MAP_URL}" target="_blank" rel="noopener noreferrer">Get directions ↗</a></div></div><h3>Call Us</h3><div class="contact-detail"><b class="contact-icon">${callIcon}</b><div><a href="tel:+${PHONE}">+91 88001 59410</a><a href="tel:+${PHONE_ALT}">+91 88826 64742</a></div></div><h3>Chat on WhatsApp</h3><div class="contact-detail"><b class="contact-icon">${whatsappIcon}</b><div><a target="_blank" rel="noopener noreferrer" href="${wa("Hi, I would like to know more about your furniture.",PHONE)}">Chat on +91 88001 59410</a><a target="_blank" rel="noopener noreferrer" href="${wa("Hi, I would like to know more about your furniture.",PHONE_ALT)}">Chat on +91 88826 64742</a></div></div><h3>Email</h3><div class="contact-detail"><b class="contact-icon">✉</b><div><a href="mailto:${EMAIL}">${EMAIL}</a></div></div></div><div class="contact-map rev"><div class="contact-map__heading"><h2>Find Us on <em>Map</em></h2><a href="${MAP_URL}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a></div><iframe title="Map showing B-117, Sector 69, Noida (Uttar Pradesh) 201301" src="https://www.google.com/maps?q=B-117%2C%20Sector%2069%2C%20Noida%20%28Uttar%20Pradesh%29%20201301&amp;output=embed" loading="lazy"></iframe></div></div><section class="contact-faq" aria-labelledby="contact-faq-title"><h2 id="contact-faq-title">FAQs</h2><details><summary>Can I check product availability?</summary><p class="sub">Yes, message us on WhatsApp.</p></details><details><summary>Do you provide delivery?</summary><p class="sub">Yes, Pan India delivery is available.</p></details><details><summary>Is Cash on Delivery available?</summary><p class="sub">Yes, COD is available.</p></details><details><summary>What is your return policy?</summary><p class="sub">See our Return Policy page.</p></details></section></div></section></div>`,
 returns:()=>`<div class="pg">${head("Return Policy","Simple and transparent.")}<section><div class="w"><div class="cards4">${[
 ["<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 4h11v13H3zM14 9h4l3 4v4h-7z\"/><circle cx=\"7\" cy=\"19\" r=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"2\"/><path d=\"M6 8h5m-5 3h4\"/></svg>","Inspect on Delivery","Check the product condition at the time of delivery."],
 ["<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2M8 3 6 5m10-2 2 2\"/></svg>","Report Quickly","Inform us within 48 hours of delivery."],
@@ -172,7 +182,7 @@ console.error("Could not share the product image; opening WhatsApp with its imag
 location.href=link.href;
 }
 });
-function grid(){const q=document.getElementById("q").value.toLowerCase(),c=fc.value,a=fa.value,s=fs.value;
+function grid(){const q=document.getElementById("q").value.toLowerCase(),c=document.getElementById("fc").value,a=document.getElementById("fa").value,s=document.getElementById("fs").value;
 let l=P.filter(p=>p[1].toLowerCase().includes(q)&&(!c||p[2]===c)&&(a===""||String(p[4])===a));
 if(s==="l")l.sort((x,y)=>x[3]-y[3]);if(s==="h")l.sort((x,y)=>y[3]-x[3]);
 pg.innerHTML=l.length?l.map(card).join(""):"<p class='sub'>Koi product nahi mila.</p>";reveal()}
@@ -183,7 +193,83 @@ updateTicker();
 function route(){const pg0=document.body.dataset.page;const h=pg0==="product"?(new URLSearchParams(location.search).get("id")||"p1"):pg0;let v=R[h]?R[h]():(/^p\d+$/.test(h)?detail(h):R.home());app.innerHTML=v;if(h==="home"){const services=app.querySelector(".strip"),banner=app.querySelector(".hs");if(services&&banner){services.classList.add("services-panel");banner.after(services)}}window.scrollTo(0,0);
 document.querySelectorAll(".links a").forEach(a=>a.classList.toggle("on",a.dataset.p===(pg0==="product"?"products":pg0)));
 lk.classList.remove("o");
-if(h==="products"){["q","fc","fa","fs"].forEach(i=>document.getElementById(i).addEventListener("input",grid));grid()}
+if(h==="products"){
+const homeCategoryCard=app.querySelector('.product-category-card[data-category="Home Furniture"]');
+if(homeCategoryCard){
+const image=document.createElement("img");
+image.src=HOME_CATEGORY_IMAGE;
+image.alt="";
+image.loading="lazy";
+homeCategoryCard.classList.add("product-category-card--home-banner");
+homeCategoryCard.setAttribute("aria-label","Show Home Furniture products");
+homeCategoryCard.replaceChildren(image);
+}
+const officeCategoryCard=app.querySelector('.product-category-card[data-category="Office Furniture"]');
+if(officeCategoryCard){
+const image=document.createElement("img");
+image.src=OFFICE_CATEGORY_IMAGE;
+image.alt="";
+image.loading="lazy";
+officeCategoryCard.classList.add("product-category-card--office-banner");
+officeCategoryCard.setAttribute("aria-label","Show Office Furniture products");
+officeCategoryCard.replaceChildren(image);
+}
+const restaurantCategoryCard=app.querySelector('.product-category-card[data-category="Restaurant Furniture"]');
+if(restaurantCategoryCard){
+const image=document.createElement("img");
+image.src=RESTAURANT_CATEGORY_IMAGE;
+image.alt="";
+image.loading="lazy";
+restaurantCategoryCard.classList.add("product-category-card--restaurant-banner");
+restaurantCategoryCard.setAttribute("aria-label","Show Restaurant Furniture products");
+restaurantCategoryCard.replaceChildren(image);
+}
+const restaurantPanel=document.createElement("div");
+restaurantPanel.className="office-category-panel restaurant-category-panel";
+restaurantPanel.id="restaurant-category-panel";
+restaurantPanel.hidden=true;
+restaurantPanel.innerHTML='<span class="category-section-kicker">HOSPITALITY COLLECTION</span><h2>Restaurant Furniture <em>Collection</em></h2><p>Looking for tables, chairs or seating for your restaurant? Contact us to check current options and availability.</p><a class="btn" href="contact.html">Enquire about Restaurant Furniture</a>';
+document.getElementById("pg").before(restaurantPanel);
+["q","fc","fa","fs"].forEach(i=>document.getElementById(i).addEventListener("input",grid));
+const categoryCards=[...document.querySelectorAll(".product-category-card")];
+const homePanel=document.getElementById("home-subcategories");
+const officePanel=document.getElementById("office-category-panel");
+const officeSubcategoryGrid=document.createElement("div");
+officeSubcategoryGrid.className="home-subcategory-grid office-subcategory-grid";
+officeSubcategoryGrid.innerHTML=OFFICE_SUBCATEGORIES.map(([name,icon])=>`<button class="home-subcategory-chip office-subcategory-chip" type="button" data-subcategory="${name}" aria-pressed="false"><span>${icon}</span><b>${name}</b><i aria-hidden="true">→</i></button>`).join("");
+officePanel.append(officeSubcategoryGrid);
+const selectCategory=category=>{
+const fc=document.getElementById("fc"),q=document.getElementById("q");
+fc.value=category;q.value="";
+categoryCards.forEach(card=>{const active=card.dataset.category===category;card.classList.toggle("active",active);card.setAttribute("aria-pressed",String(active))});
+homePanel.hidden=category!=="Home Furniture";
+officePanel.hidden=category!=="Office Furniture";
+restaurantPanel.hidden=category!=="Restaurant Furniture";
+if(category!=="Home Furniture")homePanel.querySelectorAll(".home-subcategory-chip").forEach(chip=>chip.classList.remove("active"));
+if(category!=="Office Furniture")officePanel.querySelectorAll(".office-subcategory-chip").forEach(chip=>{chip.classList.remove("active");chip.setAttribute("aria-pressed","false")});
+grid();
+};
+categoryCards.forEach(card=>card.addEventListener("click",()=>selectCategory(card.dataset.category)));
+homePanel.querySelectorAll(".home-subcategory-chip").forEach(chip=>chip.addEventListener("click",()=>{
+homePanel.querySelectorAll(".home-subcategory-chip").forEach(item=>item.classList.remove("active"));
+chip.classList.add("active");
+const fc=document.getElementById("fc"),q=document.getElementById("q");
+fc.value="Home Furniture";
+const subcategory=chip.dataset.subcategory;
+q.value=subcategory.replace(/s$/,"").replace("Dining Table","Dining").replace("Almirah","Wardrobe").replace("Study Table","Study");
+grid();
+}));
+document.querySelectorAll(".office-subcategory-chip").forEach(chip=>chip.addEventListener("click",()=>{
+document.querySelectorAll(".office-subcategory-chip").forEach(item=>{item.classList.remove("active");item.setAttribute("aria-pressed","false")});
+chip.classList.add("active");
+chip.setAttribute("aria-pressed","true");
+const fc=document.getElementById("fc"),q=document.getElementById("q");
+fc.value="Office Furniture";
+q.value=chip.dataset.subcategory;
+grid();
+}));
+selectCategory("Home Furniture");
+}
 if(h==="contact")cf.onsubmit=e=>{e.preventDefault();window.open(wa(`Hi, my name is ${fn.value}. Phone: ${fp.value}. Product of interest: ${fa2.value}. ${fm.value}`),"_blank")};
 document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("on"));b.classList.add("on");const t=[ "Modern and elegant design, high quality finish, sturdy build.","Condition: Refurbished · Quality checked · Dimensions on request.","Pan India delivery available. Cash on Delivery available."];tb.textContent=t[b.dataset.t]});
 const faqProduct=P.find(x=>x[0]===h),faqAnswer=document.getElementById("product-faq-answer"),faqAsk=document.querySelector(".product-faq__ask");

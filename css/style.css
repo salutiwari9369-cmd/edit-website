@@ -451,3 +451,19 @@ body{font-size:15px}.w{padding:0 16px}section{padding:44px 0}h2{font-size:24px}.
 .product-category-card--restaurant-banner{height:85px;min-height:85px}
 }
 @media(prefers-reduced-motion:reduce){.client-review-marquee{overflow-x:auto;scrollbar-width:thin;-webkit-overflow-scrolling:touch}.client-review-marquee__track{width:100%;animation:none;will-change:auto}.client-review-marquee__group[aria-hidden="true"]{display:none}}
+
+
+/* Contact details: two locations and all three call / WhatsApp numbers */
+.footer-contact{min-width:0}
+.footer-contact__label{display:block;margin:10px 0 4px;color:var(--tx);font-size:12px;font-weight:750}
+.footer-contact a{align-items:flex-start;font-size:12px;line-height:1.45;overflow-wrap:anywhere}
+.footer-contact a span{min-width:0;overflow-wrap:anywhere}
+.footer-social a[href*="wa.me"] svg{color:#25b96a}
+.footer-contact a[href*="google.com/maps/search"]::before{margin-top:2px}
+.contact-map__locations{display:grid;gap:12px;min-width:0}
+.contact-map__location{display:grid;gap:6px;min-width:0}
+.contact-map__location-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px}
+.contact-map__location-heading a{flex:none;color:#1769aa;font-size:11px;font-weight:650}
+.contact-map__location iframe{display:block;width:100%;height:180px;min-height:180px;flex:none;border:0;border-radius:8px;background:#e8e5df}
+@media(max-width:900px){.contact-map__location iframe{height:220px;min-height:220px}}
+@media(max-width:600px){.contact-map__location iframe{height:220px;min-height:220px}}
